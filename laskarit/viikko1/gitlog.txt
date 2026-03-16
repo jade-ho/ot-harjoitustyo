@@ -1,0 +1,89 @@
+➜  tiedostoja git:(master) git log --stat | cat
+commit b78f1b5be93f2bc4690ad8c297738b729eba783f
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 15:53:25 2026 +0200
+
+    muuta tiedostoja
+
+ tiedostoja/file1             | 1 -
+ tiedostoja/{file2 => file22} | 0
+ 2 files changed, 1 deletion(-)
+
+commit 2cae8fb1afcdf30d481edb5e74c4db14b191ee63
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 15:50:58 2026 +0200
+
+    tee tiedostot file1 file2 file3
+
+ tiedostoja/file1 | 1 +
+ tiedostoja/file2 | 1 +
+ tiedostoja/file3 | 1 +
+ 3 files changed, 3 insertions(+)
+
+commit 4a3e1fad96ddb3f57ba3c88faab6f17fe3cb1492
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 15:40:13 2026 +0200
+
+    muuta tiedostoja eka.txt ja kolmas.txt
+
+ eka.txt    | 2 +-
+ kolmas.txt | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 637a717b798ea3e268b9ecc76bfa7760813ccf16
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 14:42:41 2026 +0200
+
+    muuta tiedosto.txt eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ kolmas.txt              | 1 +
+ 2 files changed, 1 insertion(+)
+
+commit 829697eed835edfae8dd734c64c01ce8513159c2
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 14:41:41 2026 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d9a7657617ca74090cb0559fafb4fb0a461d4e27
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 14:39:10 2026 +0200
+
+    tee muutoksia
+
+ "stuff/nelj\303\244s.txt" | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 469bf149f1adca08e60f11077957ee93841d1d52
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 14:37:18 2026 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit be7c2ce8fd9ebbf5bb4c8f0665132add242c4964
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 14:36:13 2026 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit e4050beb554c92224f8247bc3905357b8714eea6
+Author: Jade Ho <jadeho@helsinki.fi>
+Date:   Mon Mar 16 14:35:14 2026 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+➜  tiedostoja git:(master) 
+
