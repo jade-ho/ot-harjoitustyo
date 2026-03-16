@@ -1,4 +1,4 @@
-# ot-harjoitustyo
+# Ot-harjoitustyo
 
 ### Ohjelmistotekniikka, harjoitustyö
 - Ajatuksena tehdä **sääsovellus**, jossa näkyy alueellinen _sää_, _lämpötila_ ja _muita tietoja_.
