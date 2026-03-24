@@ -3,6 +3,10 @@ MAUKAS = 400
 
 
 class Maksukortti:
+
+    def saldo_euroina(self):
+        return self.saldo / 100
+    
     def __init__(self, saldo):
         # saldo on senteissä
         self.saldo = saldo
